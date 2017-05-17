@@ -13,6 +13,8 @@
     "engine.io": "^3.1.0",
     "eureca.io": "^0.7.1",
     "express": "^3.2.6",
+    "http": "0.0.0",
+    "http-server": "^0.10.0",
     "phaser-ce": "^2.7.9",
     "socket.io": "~0.9.14"
   },
