@@ -1,13 +1,36 @@
 {
-  "name": "chat-example",
+  "name": "game_shootthemup_mfll",
   "version": "0.0.0",
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floflo10/checkmate.git"
+  },
+  "author": "",
   "dependencies": {
     "async": "~0.2.8",
-    "express": "~3.2.4",
+    "engine.io": "^3.1.0",
+    "eureca.io": "^0.7.1",
+    "express": "^3.2.6",
+    "phaser-ce": "^2.7.9",
     "socket.io": "~0.9.14"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "game",
+    "html5",
+    "css3",
+    "shoot",
+    "them",
+    "up"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floflo10/checkmate/issues"
+  },
+  "homepage": "https://github.com/Floflo10/checkmate#readme"
 }
